@@ -21,7 +21,10 @@
             android:hint="Search characters"
             android:minHeight="48dp"
             android:textColorHint="#6B000000"
-            android:textColor="#000000"/>
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:background="#ADDCCDCD"
+            android:fontFamily="@font/shadowsintolightregular"/>
 
 
         <androidx.recyclerview.widget.RecyclerView
@@ -30,6 +33,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="8dp"
             android:background="#DCCDCD" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
